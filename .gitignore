@@ -1,4 +1,6 @@
-num1 = int(input("Enter Number 1: "))
-num2 = int(input("Enter Number 2: "))
-Answer = num1 + num2
-print(num1," + ",num2," = ",Answer)
+x = input("Type a number: ")
+y = input("Type another number: ")
+
+sum = int(x) + int(y)
+
+print("The sum is: ", sum)
